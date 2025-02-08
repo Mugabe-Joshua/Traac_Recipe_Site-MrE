@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traac Recipe Site</title>
+</head>
+<body>
+    <!-- creating the welcome heading and paragraph -->
+     <div>
+        <h1>Welcome to Traac Recipe Page</h1>
+        <p>Enter your credentials to login</p>
+     </div>
+    <!-- creating the login form -->
+     <form action="POST" style="display: flex;">
+        <label for="useremail">UserEmail:</label> 
+        <input type="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="userpassword">UserPassword:</label><br>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        
+        <!-- creating a login button that routes to home.html page -->
+        <button type="submit"><a href="../home_page/home.html">Login</a></button>
+     </form>
+     <!-- creating forgot password and sign up links -->
+     <div>
+        <p><a href="#forgotpassword">Forgot Password?</a></p>
+        <p><a href="#signup">Sign Up</a></p>
+
+     </div>
+</body>
+</html>
